@@ -1,0 +1,166 @@
+html,body{
+    width: 100%;
+    height:100%;
+    scroll-behavior: smooth;
+}
+header{   
+    width: auto;
+    height: 80vh;
+    background-color: black;
+}
+
+#teste{
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;;
+    font-size: 11vh;
+    text-align: center;
+    /*float: left; /* Para o texto flutuar a esquerda*/
+    position: relative;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+#teste :hover{
+    color: #ff4f00;
+    transition: all .20s ease-in-out;
+    cursor: default;
+}
+    /* ----MENU---- */
+.menu_top{
+    text-align: end;
+    padding-right: 5%;
+    
+}
+.menu_top li{
+    padding-right: 10px;
+}
+.menu_top a{
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;;
+    font-size: 110%;
+    text-align: center;
+   /* float: left; /* Para o texto flutuar a esquerda*/
+    position: relative;
+    display: inline-block;
+    text-decoration:none;
+    margin-top: 5%;
+    list-style-type: none;
+    z-index: 10;
+}
+.menu_top :hover{
+   /* color: #FFC914;
+    color: #DE1A1A;*/
+    color: #ff4f00;
+    transition: all .20s ease-in-out;
+}
+.menu_top a:visited{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+/* -- BOTÕES INGLES --*/
+.btn_autor{
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    width: 40vw;
+    height: auto;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.btn_adm{
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    width: 40vw;
+    height: auto;
+    border: solid 2px #000000;
+    border-radius: 10px;
+   
+}
+.btns :hover{
+    background-color: #ff4f00;
+    transition: all .20s ease-in-out;
+    
+    
+}
+.btn_autor a{
+    color: #000000;
+}
+.btn_autor a:visited{
+    text-decoration: none;
+    color:#000000;
+}
+/* -- MEIO --*/
+.meio{
+    background-color: #FDFDFD;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 5%;
+    box-shadow: 0 5px 8px -5px rgba(0,0,0,.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/*  ----COMENTÁRIOS----*/
+
+.comentarios{
+    padding: 10px;
+    margin: 20px;  
+    height: auto;
+    width: auto;
+    box-shadow: 0 5px 10px -5px rgba(0,0,0,.2);
+}
+.comentarios textarea{
+    width: 100%;
+    height: 12vh;
+}
+
+#comentario_ok{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 0px 10px 10px 10px;
+    
+}
+#comentario_ok textarea{
+    width: 100%;
+    height: auto;
+    resize: none;
+    border: 0 none;
+    outline:none;
+    pointer-events: none;   
+}
+#caracteres{
+    text-align: right;
+}
+
+ /* ----RODAPÉ---- */
+
+footer{
+    background-color: rgb(38 41 47);
+    color: #ffffff;
+    height: auto;
+    width: auto;
+    position: relative;
+    bottom:0;
+    padding: 5%;
+}
+
+
+/* ----CONFIG P/ RESPONSIVIDADE MOBILE---- */
+@media only screen and (max-width: 499px) {
+    .mobile-hide{ display: none !important; }
+    }
+    @media only screen and (max-width: 400px) {
+    .mobile{ display: inline !important; }
+    }
+    @media only screen and (min-width: 500px) {
+    .desktop-hide{ display: none !important; }
+    }
+/*---------------------------------------------*/
